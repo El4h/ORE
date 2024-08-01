@@ -98,10 +98,6 @@
         <img src="static/videos/intro.gif" autoplay loop height="150%" muted>
       </div>
       <h2 class="subtitle has-text-centered">
-        Unraveling the enigma of inversion effects, 
-        this work taps into the power of deep neural networks to challenge our understanding 
-        of object recognition, questioning how category characteristics impact our perceptions 
-        and if neural networks are good predictors for human behavior.
       </h2>
     </div>
   </div>
@@ -116,22 +112,39 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Deep neural networks match or exceed human performance in various visual tasks and serve as effective models for human behavior and neural processes. 
-            However, like humans, these networks are affected by input data variations, including contrast, blur, or orientation. 
-            In humans, the face inversion effect disproportionately impacts face recognition compared to objects.
-            With deep neural networks modeling human face and object recognition, we aim to examine if this orientation bias applies across different object categories. 
-            This work seeks to explore if deep neural networks display inversion effects and can predict such effects in humans. 
-            Initial analyses with varied network architectures ranked object categories based on their inversion effects, then examined these in humans. 
-            In a classification task, both subjects and networks categorized objects presented upright or inverted. 
-            The results suggest neural networks show significant behavioral inversion effects across categories, regardless of model architecture. 
-            In humans, similar response patterns to the networks were observed even without significant differences in the inversion effects of selected objects. 
-            This underscores the relevance of neural networks in modeling human visual processing.
+            The Other-Race Effect (ORE) refers to the difficulty humans experience when recognizing faces from races less familiar to them. 
+            Prior research has linked the ORE with limited exposure to diverse faces, yet the precise nature of this relationship remains unclear. 
+            Here, we use deep convolutional neural networks (CNNs) to investigate how racially varied exposure affects face perception. 
+            We trained three CNNs: one on white faces, another on Asian faces, and a Dual CNN on both. While the single- trained CNNs exhibited an 
+            ORE on the untrained race, the Dual CNN showed less bias and performed well across both races. 
+            Surprisingly, in a target- matching task, the Dual CNN most closely matched both white and Asian participants’ 
+            choices, despite their own ORE. Furthermore, only the Dual CNN developed a unified representational space for 
+            both races. When testing on an unfamiliar third race, the Dual CNN outperformed single-trained models, 
+            highlighting its feature space’s generalizability. Our results show that racially diverse exposure not only 
+            reduces biases in CNNs but also results in a unified, more generalized representational geometry, 
+            thereby offering new insights into how experience may shape the computational mechanisms of face perception.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+<!-- Keywords Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Keywords</h2>
+        <div class="content has-text-justified">
+          <p>
+            Face Perception, Deep Convolutional Neural Networks, Other-Race Effect, Representational Geometry
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- End paper abstract -->
 
 
